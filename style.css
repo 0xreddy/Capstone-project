@@ -1,0 +1,63 @@
+body {
+    background-color: #121212;
+    color: #ddd;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="number"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    background-color: #333;
+    color: #ddd;
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+  }
+  
+  input[type="submit"] {
+    background-color: #ddd;
+    color: #121212;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #fff;
+    color: #121212;
+  }
+  
+  button {
+    background-color: #ddd;
+    color: #121212;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #fff;
+    color: #121212;
+  }
+  
